@@ -14,7 +14,7 @@ yarn add -D @tommy-mitchell/tsconfig
 
 ## Usage
 
-```json
+```json5
 {
 	"extends": "@tommy-mitchell/tsconfig",
 	"compilerOptions": {
