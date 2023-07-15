@@ -5,6 +5,10 @@ Personal TypeScript config.
 ## Install
 
 ```sh
+npm install --save-dev @tommy-mitchell/tsconfig
+```
+
+```sh
 yarn add -D @tommy-mitchell/tsconfig
 ```
 
@@ -14,7 +18,8 @@ yarn add -D @tommy-mitchell/tsconfig
 {
 	"extends": "@tommy-mitchell/tsconfig",
 	"compilerOptions": {
-		"outDir": "dist"
-	}
+		"outDir": "dist",
+		// "declaration": false,
+	},
 }
 ```

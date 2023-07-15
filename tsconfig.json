@@ -12,7 +12,7 @@
 		],
 		"esModuleInterop": true,
 		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
-		"jsx": "react",
+		"jsx": "react-jsx",
 		"declaration": true,
 		"newLine": "lf",
 		"stripInternal": true,
