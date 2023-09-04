@@ -8,9 +8,13 @@ Personal TypeScript config.
 npm install --save-dev @tommy-mitchell/tsconfig
 ```
 
+<details>
+<summary>Other Package Managers</summary>
+
 ```sh
-yarn add -D @tommy-mitchell/tsconfig
+yarn add --dev @tommy-mitchell/tsconfig
 ```
+</details>
 
 ## Usage
 
