@@ -20,10 +20,20 @@ yarn add --dev @tommy-mitchell/tsconfig
 
 ```json5
 {
-	"extends": "@tommy-mitchell/tsconfig",
-	"compilerOptions": {
-		"outDir": "dist",
-		// "declaration": false,
-	},
+  "extends": "@tommy-mitchell/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+  },
+}
+```
+
+If using with a bundler, set the following options to prevent type resolution issues:
+
+```json5
+{
+  "compilerOptions": {
+    "declaration": false,
+    "noEmit": false,
+  },
 }
 ```

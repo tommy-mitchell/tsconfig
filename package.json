@@ -10,7 +10,7 @@
 	},
 	"main": "tsconfig.json",
 	"engines": {
-		"node": "^18 || ^20"
+		"node": ">=18"
 	},
 	"files": [
 		"tsconfig.json"

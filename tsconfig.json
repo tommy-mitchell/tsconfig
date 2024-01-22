@@ -10,7 +10,6 @@
 			"DOM.Iterable",
 			"ES2022"
 		],
-		"esModuleInterop": true,
 		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
 		"jsx": "react-jsx",
 		"declaration": true,
