@@ -10,10 +10,13 @@ npm install --save-dev @tommy-mitchell/tsconfig
 
 <details>
 <summary>Other Package Managers</summary>
+<p>
 
 ```sh
 yarn add --dev @tommy-mitchell/tsconfig
 ```
+
+</p>
 </details>
 
 ## Usage

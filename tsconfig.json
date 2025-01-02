@@ -26,6 +26,7 @@
 		"noEmitOnError": true,
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
+		"noUncheckedSideEffectImports": true,
 		"skipLibCheck": true, // Maybe? https://github.com/sindresorhus/tsconfig/issues/15
 		"useUnknownInCatchVariables": true
 	}
