@@ -24,9 +24,6 @@ yarn add --dev @tommy-mitchell/tsconfig
 ```json5
 {
   "extends": "@tommy-mitchell/tsconfig",
-  "compilerOptions": {
-    "outDir": "dist",
-  },
 }
 ```
 

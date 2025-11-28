@@ -1,20 +1,21 @@
 {
 	// Based on sindresorhus/tsconfig
 	"compilerOptions": {
-		"module": "node16",
+		"outDir": "${configDir}/dist",
+		"module": "node20",
 		"moduleResolution": "node16",
 		"moduleDetection": "force",
-		"target": "ES2022", // Node.js 18
 		"lib": [
 			"DOM",
 			"DOM.Iterable",
-			"ES2022"
+			"ES2023"
 		],
 		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
 		"jsx": "react-jsx",
 		"declaration": true,
 		"newLine": "lf",
 		"stripInternal": true,
+		"erasableSyntaxOnly": true,
 		"strict": true,
 		"noImplicitReturns": true,
 		"noImplicitOverride": true,
