@@ -20,7 +20,7 @@ jobs:
       - run: npm pack
       - uses: actions/attest@v4
         with:
-          subject-path: '${{ github.workspace }}/*.tgz'
+          subject-path: "${{ github.workspace }}/*.tgz"
       - run: gh release create ${{ github.ref_name }} --draft *.tgz
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

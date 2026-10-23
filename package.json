@@ -6,9 +6,9 @@
 	"repository": "tommy-mitchell/tsconfig",
 	"author": "Tommy Mitchell (https://tommymitchell.io)",
 	"exports": {
-		"node": "./tsconfig.node.json",
-		"vite": "./tsconfig.vite.json",
-		"default": "./tsconfig.base.json"
+		"./node": "./tsconfig.node.json",
+		"./vite": "./tsconfig.vite.json",
+		".": "./tsconfig.base.json"
 	},
 	"sideEffects": false,
 	"engines": {
