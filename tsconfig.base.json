@@ -1,18 +1,9 @@
 {
 	// Based on sindresorhus/tsconfig
 	"compilerOptions": {
-		"outDir": "${configDir}/dist",
-		"module": "node20",
-		"moduleResolution": "node16",
 		"moduleDetection": "force",
-		"lib": [
-			"DOM",
-			"DOM.Iterable",
-			"ES2023"
-		],
-		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
-		"jsx": "react-jsx",
-		"declaration": true,
+		"target": "es2024",
+		"lib": ["ES2024"],
 		"newLine": "lf",
 		"stripInternal": true,
 		"erasableSyntaxOnly": true,
@@ -24,11 +15,10 @@
 		"noFallthroughCasesInSwitch": true,
 		"noUncheckedIndexedAccess": true,
 		"noPropertyAccessFromIndexSignature": true,
-		"noEmitOnError": true,
 		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
 		"noUncheckedSideEffectImports": true,
-		"skipLibCheck": true, // Maybe? https://github.com/sindresorhus/tsconfig/issues/15
-		"useUnknownInCatchVariables": true
-	}
+		"skipLibCheck": true,
+		"useUnknownInCatchVariables": true,
+	},
 }

@@ -16,6 +16,10 @@ npm install --save-dev @tommy-mitchell/tsconfig
 yarn add --dev @tommy-mitchell/tsconfig
 ```
 
+```sh
+pnpm add -D @tommy-mitchell/tsconfig
+```
+
 </p>
 </details>
 
@@ -27,13 +31,18 @@ yarn add --dev @tommy-mitchell/tsconfig
 }
 ```
 
-If using with a bundler, set the following options to prevent type resolution issues:
+### Node
 
 ```json5
 {
-  "compilerOptions": {
-    "declaration": false,
-    "noEmit": false,
-  },
+  "extends": "@tommy-mitchell/tsconfig/node",
+}
+```
+
+### Vite
+
+```json5
+{
+  "extends": "@tommy-mitchell/tsconfig/vite",
 }
 ```

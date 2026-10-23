@@ -4,15 +4,24 @@
 	"description": "My personal TypeScript config.",
 	"license": "MIT",
 	"repository": "tommy-mitchell/tsconfig",
-	"author": {
-		"name": "Tommy Mitchell",
-		"url": "https://tommymitchell.io"
+	"author": "Tommy Mitchell (https://tommymitchell.io)",
+	"exports": {
+		"node": "./tsconfig.node.json",
+		"vite": "./tsconfig.vite.json",
+		"default": "./tsconfig.base.json"
 	},
-	"main": "tsconfig.json",
+	"sideEffects": false,
 	"engines": {
-		"node": ">=20"
+		"node": ">=22"
 	},
 	"files": [
-		"tsconfig.json"
+		"tsconfig.*.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
 	]
 }
